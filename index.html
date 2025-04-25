@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simon Says Game</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Simon Says Game</h1>
+    <p class="How-to-play">
+      <strong>Simon Says</strong> is a fun and simple game of listening and
+      quick reactions.<br />
+      Here's how to play: One person is chosen to be
+      <strong>"Simon"</strong> and gives instructions to the other players.<br />
+      If the instruction starts with <strong>"Simon says"</strong>, players must
+      follow it.<br />
+      <strong>Example:</strong> “Simon says touch your nose” - everyone touches
+      their nose.<br />
+      If the instruction <strong>doesn't</strong> start with “Simon says,”
+      players <strong>must not</strong> follow it.<br />
+      <strong>Example:</strong> “Jump!” - anyone who jumps is out.<br />
+      Players who follow a command incorrectly or miss a correct one are
+      <strong>eliminated</strong>.<br />
+      The <strong>last player remaining</strong> is the winner!<br />
+      It's a great game to test <strong>attention</strong> and
+      <strong>listening skills</strong>!
+    </p>
+
+    <h2>Press any key to start</h2>
+
+    <div class="btn-container">
+      <div class="line-one">
+        <div class="btn red" type="button" id="red">1</div>
+        <div class="btn blue" type="button" id="blue">2</div>
+      </div>
+
+      <div class="line-two">
+        <div class="btn green" type="button" id="green">3</div>
+        <div class="btn yellow" type="button" id="yellow">4</div>
+      </div>
+    </div>
+    <div class="instructions">
+      <h3>🕹️ How to Play</h3>
+      Press any key to <strong>start</strong> the game.<br />
+      <strong>Watch</strong> the flashing button and remember the color
+      sequence.<br />
+      <strong>Click</strong> the buttons in the same order as shown.<br />
+      Advance to the <strong>next level</strong> by repeating the correct
+      sequence.<br />
+      Make a mistake? It's <strong>Game Over</strong> - your score is the level
+      you reached.<br />
+      Press any key to <strong>restart</strong>.<br />
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
