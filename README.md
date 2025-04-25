@@ -1,4 +1,4 @@
-# Simon Says Game – Memory & Reaction Challenge 🔴🟢🔵🟡
+# Simon Says Game 🔴🟢🔵🟡 – Memory & Reaction Challenge 
 
 An interactive **Simon Says** game built with **HTML, CSS, and JavaScript**. Players must repeat flashing color sequences that become increasingly challenging, testing both memory and reaction speed. A fun way to practice DOM manipulation, event handling, and UI design.
 
@@ -34,11 +34,14 @@ An interactive **Simon Says** game built with **HTML, CSS, and JavaScript**. Pla
 
 ## 📁 Project Structure
 
-simon-says-game:
-  ├── index.html    # Markup
-  ├── style.css     # Styling and animations
-  ├── app.js        # Game logic
-  └── README.md     # Project overview
+```
+simon-says-game/
+├── index.html     # Markup
+├── style.css      # Styling and animations
+├── app.js         # Game logic
+└── README.md      # Project overview
+```
+
 
 ---
 
